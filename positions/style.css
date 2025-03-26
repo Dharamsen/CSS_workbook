@@ -13,8 +13,9 @@ html , body{
     background-color: lightpink;
     display: flex;
     flex-wrap:wrap;
-    align-items: center;
-  
+    /* cross axis mein kaam karna hai then use align items */
+    align-items: center;  
+    /* main axis mein kaam karna hai then use justify content */
     justify-content: space-around;
 }
 .child1{
