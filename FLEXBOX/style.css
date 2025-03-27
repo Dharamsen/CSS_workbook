@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    margin: 10px;
+    height: 50vh;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   /* row gap coloumn gap */
+        
+    
+}
+ .item{
+   
+    height: 35px;
+    width: 35px;
+    background-color: lightpink;
+    border: 1px solid black;
+   
+    margin: 5px;
+}
