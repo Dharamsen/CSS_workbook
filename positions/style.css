@@ -17,11 +17,14 @@ html , body{
     align-items: center;  
     /* main axis mein kaam karna hai then use justify content */
     justify-content: space-around;
+   
 }
 .child1{
     height: 200px;
     width: 200px;
     background-color: crimson;
+    border: 2px solid black;
+    
    
 }
 .child2{
