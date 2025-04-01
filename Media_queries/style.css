@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* .box{
+    height: 250px;
+    width: 250px;
+    background-color: lightcoral;
+}
+@media (min-width:600px) {
+    .box{
+        background: lightgreen;
+        height: 250px;
+        width: 250px;
+
+    }
+    
+} */
+
+/* .parent{
+    height: 400px;
+    width: 100%;
+    background-color: crimson;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.child{
+    height: 300px;
+    width: 100px;
+    background-color: wheat;
+    border: 2px solid black;
+    
+   
+} */
+ /* -------------------------------------------------------------------------------------------------------- */
+
+/* .parent{
+    height: 1000px;
+    width: 1000px;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 100px 300px 100px 100px ;
+    grid-template-rows: 100px 80px ;
+}
+.child{
+    height: 300px;
+    background-color: red;
+    border: 2px solid black;
+} */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: wheat;
+    display: grid;
+    /* grid-template-areas: 
+    "a a ."
+    "a a ."
+    ". b c"
+    ; */
+    grid-template-columns: repeat(3,1fr);
+}
+
+.child{
+    
+    background-color: red;
+    border: 2px solid black;
+    height: 100px;
+    
+}
+.child-a{
+    
+    background-color: aquamarine;
+}
+.child-b{
+    
+    background-color: lightcoral;
+
+}
+.child-c{
+    
+    background-color: lightgreen;
+
+}
+
+
+
